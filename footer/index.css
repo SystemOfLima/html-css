@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+}
+
+footer {
+  margin-top: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: gray;
+  height: 8rem;
+  width: 100%;
+
+  color: white;
+  font-size: 2rem;
+}
