@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+aside {
+  flex-basis: 25%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+aside,
+main {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
